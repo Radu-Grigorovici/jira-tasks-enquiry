@@ -1,7 +1,7 @@
 import * as http from 'http';
 
 // declare return type
-export function getTasks(userEmail: string, apiKey: string, subDomain: string): any {
+export function getTasks(userEmail: string, apiKey: string, subDomain: string): void {
   const url = `curl -D- -u ${userEmail}:${apiKey} -X GET -H "Content-Type: application/json" "https://${subDomain}.atlassian.net/rest/api/2/search?jql=assignee=currentuser()+and+status=%27To%20Do%27"`;
   http
     .get(url, res => {
