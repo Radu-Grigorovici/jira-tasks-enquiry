@@ -1,8 +1,9 @@
 {
   "name": "radu-grigorovici-jira-api-node-app",
   "version": "1.0.0",
-  "description": "Package that obtains jira tasks of a user",
-  "main": "index.js",
+  "description": "Node app that organizes information from Jira in a useful way",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "start": "node src/index.ts",
     "tsc": "tsc",
@@ -12,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/radu.grigorovici.anais/radu-grigorovici-jira-api-node-app.git"
+    "url": "git+https://github.com/Radu-Grigorovici/jira-tasks-enquiry.git"
   },
   "keywords": [
     "node",
@@ -23,9 +24,9 @@
   "author": "Radu Grigorovici",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/radu.grigorovici.anais/radu-grigorovici-jira-api-node-app/issues"
+    "url": "https://github.com/Radu-Grigorovici/jira-tasks-enquiry"
   },
-  "homepage": "https://gitlab.com/radu.grigorovici.anais/radu-grigorovici-jira-api-node-app#readme",
+  "homepage": "https://github.com/Radu-Grigorovici/jira-tasks-enquiry/blob/master/README.md",
   "dependencies": {
     "@types/node": "^14.0.27",
     "jest": "^26.4.0",
