@@ -1,0 +1,41 @@
+{
+  "name": "radu-grigorovici-jira-api-node-app",
+  "version": "1.0.0",
+  "description": "Package that obtains jira tasks of a user",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.ts",
+    "tsc": "tsc",
+    "test": "jest --detectOpenHandles --colors --verbose --reporters=default --coverage",
+    "lint": "eslint . --ext .ts",
+    "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/radu.grigorovici.anais/radu-grigorovici-jira-api-node-app.git"
+  },
+  "keywords": [
+    "node",
+    "app",
+    "jira",
+    "api"
+  ],
+  "author": "Radu Grigorovici",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/radu.grigorovici.anais/radu-grigorovici-jira-api-node-app/issues"
+  },
+  "homepage": "https://gitlab.com/radu.grigorovici.anais/radu-grigorovici-jira-api-node-app#readme",
+  "dependencies": {
+    "@types/node": "^14.0.27",
+    "jest": "^26.4.0",
+    "ts-jest": "^26.2.0",
+    "typescript": "^3.9.7"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.9.0",
+    "@typescript-eslint/parser": "^3.9.0",
+    "eslint": "^7.7.0",
+    "prettier": "^2.0.5"
+  }
+}
