@@ -1,5 +1,5 @@
 {
-  "name": "radu-grigorovici-jira-api-node-app",
+  "name": "jira-tasks-enquiry",
   "version": "1.0.0",
   "description": "Node app that organizes information from Jira in a useful way",
   "main": "dist/index.js",
